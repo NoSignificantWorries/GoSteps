@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Scan(&a, &b, &c)
 
-	D := math.Pow(b, 2) - 4*a*c
+	D := b*b - 4*a*c
 
 	if D < 0 {
 		return
